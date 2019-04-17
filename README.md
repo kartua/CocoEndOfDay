@@ -1,2 +1,0 @@
-# CocoEndOfDay
-# Author: Kartua Smith
