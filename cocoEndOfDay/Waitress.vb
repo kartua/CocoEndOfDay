@@ -89,15 +89,15 @@
         End If
     End Sub
 
-    Private Sub chkJulia_CheckedChanged(sender As Object, e As EventArgs) Handles chkJulia.CheckedChanged
-        If chkJulia.Checked = True Then
-            chkLateJulia.Enabled = True
+    Private Sub chkLinda_CheckedChanged(sender As Object, e As EventArgs) Handles chkLinda.CheckedChanged
+        If chkLinda.Checked = True Then
+            chkLateLinda.Enabled = True
             totalWaits += 1
         Else
-            chkLateJulia.Enabled = False
-            chkLateJulia.Checked = False
-            txtJulia.Text = String.Empty
-            txtJulia.Enabled = False
+            chkLateLinda.Enabled = False
+            chkLateLinda.Checked = False
+            txtLinda.Text = String.Empty
+            txtLinda.Enabled = False
             totalWaits -= 1
         End If
     End Sub
@@ -261,14 +261,14 @@
         End If
     End Sub
 
-    Private Sub chkLateJulia_CheckedChanged(sender As Object, e As EventArgs) Handles chkLateJulia.CheckedChanged
-        If chkLateJulia.Checked = True Then
-            txtJulia.Enabled = True
+    Private Sub chkLateLinda_CheckedChanged(sender As Object, e As EventArgs) Handles chkLateLinda.CheckedChanged
+        If chkLateLinda.Checked = True Then
+            txtLinda.Enabled = True
             countWaitLate += 1
         Else
-            txtJulia.Text = String.Empty
-            txtJulia.Enabled = False
-            lblJulia.Text = String.Empty
+            txtLinda.Text = String.Empty
+            txtLinda.Enabled = False
+            lblLinda.Text = String.Empty
             countWaitLate -= 1
         End If
     End Sub
@@ -516,14 +516,14 @@
             lateStr += "Ron " + tip.ToString("C") + vbNewLine
         End If
 
-        If chkLateJulia.Checked Then
+        If chkLateLinda.Checked Then
             Dim tip As Decimal
             Dim deduct As Decimal
-            deduct = tipPerWait / (shiftHour * 60) * CDec(txtJulia.Text)
+            deduct = tipPerWait / (shiftHour * 60) * CDec(txtLinda.Text)
             tip = tipPerWait - deduct
             totalTip -= tip
-            lblJulia.Text = deduct.ToString("C")
-            lateStr += "Julia " + tip.ToString("C") + vbNewLine
+            lblLinda.Text = deduct.ToString("C")
+            lateStr += "Linda " + tip.ToString("C") + vbNewLine
         End If
 
         If chkLateJasmine.Checked Then

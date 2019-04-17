@@ -4,9 +4,9 @@
     Public myCaller As Main
     '''''''''''''''''''''''''
     Const SMITH As Decimal = 13D
-    Const JOSELIN As Decimal = 8.5D
-    Const FAI As Decimal = 9D
-    Const NOON As Decimal = 9D
+    Const JOSELIN As Decimal = 9D
+    Const FAI As Decimal = 10D
+    Const NOON As Decimal = 10D
     Const ROSITA As Decimal = 11D
 
     Private Sub btHide_Click(sender As Object, e As EventArgs) Handles btHide.Click

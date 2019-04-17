@@ -22,9 +22,9 @@ Partial Class FormWaitress
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.lblJulia = New System.Windows.Forms.Label()
-        Me.chkLateJulia = New System.Windows.Forms.CheckBox()
-        Me.txtJulia = New System.Windows.Forms.TextBox()
+        Me.lblLinda = New System.Windows.Forms.Label()
+        Me.chkLateLinda = New System.Windows.Forms.CheckBox()
+        Me.txtLinda = New System.Windows.Forms.TextBox()
         Me.lblRon = New System.Windows.Forms.Label()
         Me.lblNana = New System.Windows.Forms.Label()
         Me.lblYari = New System.Windows.Forms.Label()
@@ -37,7 +37,7 @@ Partial Class FormWaitress
         Me.chkLateNana = New System.Windows.Forms.CheckBox()
         Me.chkLateYari = New System.Windows.Forms.CheckBox()
         Me.chkLateAlex = New System.Windows.Forms.CheckBox()
-        Me.chkJulia = New System.Windows.Forms.CheckBox()
+        Me.chkLinda = New System.Windows.Forms.CheckBox()
         Me.chkRon = New System.Windows.Forms.CheckBox()
         Me.chkNana = New System.Windows.Forms.CheckBox()
         Me.chkYari = New System.Windows.Forms.CheckBox()
@@ -102,31 +102,31 @@ Partial Class FormWaitress
         '
         'lblJulia
         '
-        Me.lblJulia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblJulia.Location = New System.Drawing.Point(250, 178)
-        Me.lblJulia.Name = "lblJulia"
-        Me.lblJulia.Size = New System.Drawing.Size(71, 21)
-        Me.lblJulia.TabIndex = 33
+        Me.lblLinda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblLinda.Location = New System.Drawing.Point(250, 178)
+        Me.lblLinda.Name = "lblJulia"
+        Me.lblLinda.Size = New System.Drawing.Size(71, 21)
+        Me.lblLinda.TabIndex = 33
         '
         'chkLateJulia
         '
-        Me.chkLateJulia.AutoSize = True
-        Me.chkLateJulia.Enabled = False
-        Me.chkLateJulia.Location = New System.Drawing.Point(108, 177)
-        Me.chkLateJulia.Name = "chkLateJulia"
-        Me.chkLateJulia.Size = New System.Drawing.Size(58, 21)
-        Me.chkLateJulia.TabIndex = 32
-        Me.chkLateJulia.Text = "Late"
-        Me.chkLateJulia.UseVisualStyleBackColor = True
+        Me.chkLateLinda.AutoSize = True
+        Me.chkLateLinda.Enabled = False
+        Me.chkLateLinda.Location = New System.Drawing.Point(108, 177)
+        Me.chkLateLinda.Name = "chkLateJulia"
+        Me.chkLateLinda.Size = New System.Drawing.Size(58, 21)
+        Me.chkLateLinda.TabIndex = 32
+        Me.chkLateLinda.Text = "Late"
+        Me.chkLateLinda.UseVisualStyleBackColor = True
         '
         'txtJulia
         '
-        Me.txtJulia.Enabled = False
-        Me.txtJulia.Location = New System.Drawing.Point(171, 178)
-        Me.txtJulia.Name = "txtJulia"
-        Me.txtJulia.Size = New System.Drawing.Size(35, 22)
-        Me.txtJulia.TabIndex = 31
-        Me.txtJulia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txtLinda.Enabled = False
+        Me.txtLinda.Location = New System.Drawing.Point(171, 178)
+        Me.txtLinda.Name = "txtJulia"
+        Me.txtLinda.Size = New System.Drawing.Size(35, 22)
+        Me.txtLinda.TabIndex = 31
+        Me.txtLinda.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'lblRon
         '
@@ -242,13 +242,13 @@ Partial Class FormWaitress
         '
         'chkJulia
         '
-        Me.chkJulia.AutoSize = True
-        Me.chkJulia.Location = New System.Drawing.Point(23, 178)
-        Me.chkJulia.Name = "chkJulia"
-        Me.chkJulia.Size = New System.Drawing.Size(59, 21)
-        Me.chkJulia.TabIndex = 38
-        Me.chkJulia.Text = "Julia"
-        Me.chkJulia.UseVisualStyleBackColor = True
+        Me.chkLinda.AutoSize = True
+        Me.chkLinda.Location = New System.Drawing.Point(23, 178)
+        Me.chkLinda.Name = "chkJulia"
+        Me.chkLinda.Size = New System.Drawing.Size(59, 21)
+        Me.chkLinda.TabIndex = 38
+        Me.chkLinda.Text = "Julia"
+        Me.chkLinda.UseVisualStyleBackColor = True
         '
         'chkRon
         '
@@ -605,14 +605,14 @@ Partial Class FormWaitress
         Me.grbWaitress.Controls.Add(Me.Label3)
         Me.grbWaitress.Controls.Add(Me.Label2)
         Me.grbWaitress.Controls.Add(Me.Label1)
-        Me.grbWaitress.Controls.Add(Me.chkJulia)
+        Me.grbWaitress.Controls.Add(Me.chkLinda)
         Me.grbWaitress.Controls.Add(Me.chkRon)
         Me.grbWaitress.Controls.Add(Me.chkNana)
         Me.grbWaitress.Controls.Add(Me.chkYari)
         Me.grbWaitress.Controls.Add(Me.chkAlex)
-        Me.grbWaitress.Controls.Add(Me.lblJulia)
-        Me.grbWaitress.Controls.Add(Me.chkLateJulia)
-        Me.grbWaitress.Controls.Add(Me.txtJulia)
+        Me.grbWaitress.Controls.Add(Me.lblLinda)
+        Me.grbWaitress.Controls.Add(Me.chkLateLinda)
+        Me.grbWaitress.Controls.Add(Me.txtLinda)
         Me.grbWaitress.Controls.Add(Me.lblRon)
         Me.grbWaitress.Controls.Add(Me.lblNana)
         Me.grbWaitress.Controls.Add(Me.lblYari)
@@ -880,9 +880,9 @@ Partial Class FormWaitress
 
     End Sub
 
-    Friend WithEvents lblJulia As Label
-    Friend WithEvents chkLateJulia As CheckBox
-    Friend WithEvents txtJulia As TextBox
+    Friend WithEvents lblLinda As Label
+    Friend WithEvents chkLateLinda As CheckBox
+    Friend WithEvents txtLinda As TextBox
     Friend WithEvents lblRon As Label
     Friend WithEvents lblNana As Label
     Friend WithEvents lblYari As Label
@@ -895,7 +895,7 @@ Partial Class FormWaitress
     Friend WithEvents chkLateNana As CheckBox
     Friend WithEvents chkLateYari As CheckBox
     Friend WithEvents chkLateAlex As CheckBox
-    Friend WithEvents chkJulia As CheckBox
+    Friend WithEvents chkLinda As CheckBox
     Friend WithEvents chkRon As CheckBox
     Friend WithEvents chkNana As CheckBox
     Friend WithEvents chkYari As CheckBox
