@@ -28,6 +28,7 @@ Partial Class PreviewTip
         Me.linkPrint = New System.Windows.Forms.LinkLabel()
         Me.linkHide = New System.Windows.Forms.LinkLabel()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.SuspendLayout()
         '
         'lblPreview
@@ -68,6 +69,10 @@ Partial Class PreviewTip
         Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
         Me.PrintForm1.PrintFileName = Nothing
         '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'PreviewTip
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -91,4 +96,5 @@ Partial Class PreviewTip
     Friend WithEvents linkPrint As LinkLabel
     Friend WithEvents linkHide As LinkLabel
     Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
+    Friend WithEvents PrintDialog1 As PrintDialog
 End Class
